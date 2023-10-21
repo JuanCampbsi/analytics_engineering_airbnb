@@ -4,4 +4,6 @@ postgres-data/
 
 .DS_Store
 
-src/bronze/raw/
+src/bronze/raw/calendar.csv
+src/bronze/raw/listings.csv
+src/bronze/raw/reviews.csv
