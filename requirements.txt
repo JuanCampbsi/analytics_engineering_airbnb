@@ -2,7 +2,9 @@ pandas
 requests
 ipython-sql
 sqlalchemy
-psycopg2
+psycopg2 
 python-dotenv
 ydata_profiling
 matplotlib>=3.2, <=3.7.3
+great_expectations
+dbt-postgres
