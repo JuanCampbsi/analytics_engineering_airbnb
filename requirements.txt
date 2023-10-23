@@ -8,3 +8,5 @@ ydata_profiling
 matplotlib>=3.2, <=3.7.3
 great_expectations
 dbt-postgres
+pyarrow 
+fastparquet
