@@ -10,3 +10,7 @@ src/bronze/raw/reviews.csv
 
 
 config/__pycache__/
+
+venv/
+
+src/silver/reports/__pycache__/
