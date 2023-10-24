@@ -7,3 +7,6 @@ postgres-data/
 src/bronze/raw/calendar.csv
 src/bronze/raw/listings.csv
 src/bronze/raw/reviews.csv
+
+
+config/__pycache__/

@@ -14,5 +14,9 @@ class ConnectDataBase:
 
         self.__conn_string = f"postgresql://{self.__postgres_user}:{urlquote(self.__postgres_password)}@localhost:5432/Analytics_Engineering"
 
+    @property
+    def conn_string(self) -> str:
+        return self.__conn_string
+
     def engine(self):
-        return create_engine(self.__conn_string)
+        return create_engine(self.conn_string)
