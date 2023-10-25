@@ -13,4 +13,4 @@ config/__pycache__/
 
 venv/
 
-src/silver/reports/__pycache__/
+src/silver/quality_tests/raw/
