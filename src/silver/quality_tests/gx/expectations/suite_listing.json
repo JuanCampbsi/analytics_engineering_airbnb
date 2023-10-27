@@ -1,0 +1,26 @@
+{
+  "data_asset_type": null,
+  "expectation_suite_name": "suite_listing",
+  "expectations": [
+    {
+      "expectation_type": "expect_column_values_to_be_of_type",
+      "kwargs": {
+        "column": "calculated_host_listings_count_entire_homes",
+        "type_": "BIGINT"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_of_type",
+      "kwargs": {
+        "column": "name",
+        "type_": "TEXT"
+      },
+      "meta": {}
+    }
+  ],
+  "ge_cloud_id": null,
+  "meta": {
+    "great_expectations_version": "0.17.23"
+  }
+}

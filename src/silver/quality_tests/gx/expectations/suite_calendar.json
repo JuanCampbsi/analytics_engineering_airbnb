@@ -1,0 +1,34 @@
+{
+  "data_asset_type": null,
+  "expectation_suite_name": "suite_calendar",
+  "expectations": [
+    {
+      "expectation_type": "expect_column_values_to_be_of_type",
+      "kwargs": {
+        "column": "listing_id",
+        "type_": "BIGINT"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_of_type",
+      "kwargs": {
+        "column": "date",
+        "type_": "TIMESTAMP"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_be_of_type",
+      "kwargs": {
+        "column": "maximum_nights",
+        "type_": "DOUBLE_PRECISION"
+      },
+      "meta": {}
+    }
+  ],
+  "ge_cloud_id": null,
+  "meta": {
+    "great_expectations_version": "0.17.23"
+  }
+}

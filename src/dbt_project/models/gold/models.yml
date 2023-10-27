@@ -1,0 +1,68 @@
+version: 2
+
+models:
+  - name: Listing_Gold
+    description: "DBT"
+    columns:
+      - name: id
+        description: "Verificações de tipo"
+        tests:
+          - test_check_unique_values
+
+      - name: avg_review_scores_rating
+        description: "Verificações de tipo e limites"
+        tests:
+          - dbt_expectations.expect_column_values_to_be_between:
+              min_value: 0
+              max_value: 100
+
+      - name: min_review_scores_rating
+        description: "Verificações de limites"
+        tests:
+          - dbt_expectations.expect_column_values_to_be_between:
+              min_value: 0
+              max_value: 100
+
+      - name: max_review_scores_rating
+        description: "Verificações de limites"
+        tests:
+          - dbt_expectations.expect_column_values_to_be_between:
+              min_value: 0
+              max_value: 100
+
+      - name: avg_review_scores_accuracy
+        description: "Verificações de limites"
+        tests:
+          - dbt_expectations.expect_column_values_to_be_between:
+              min_value: 0
+              max_value: 10
+
+  - name: Reviews_Gold
+    description: "DBT"
+    columns:
+      - name: number_of_reviews
+        description: "Verificações de tipo"
+        tests:
+          - dbt_expectations.expect_column_values_to_be_of_type:
+              column_type: bigint
+          - dbt_expectations.expect_column_values_to_be_between:
+              min_value: 0
+
+  - name: Calendar_Gold
+    description: "DBT"
+    columns:
+      - name: avg_price
+        description: "Verificações de tipo"
+        tests:
+          - dbt_expectations.expect_column_values_to_be_of_type:
+              column_type: double precision
+          - dbt_expectations.expect_column_values_to_be_between:
+              min_value: 0
+
+      - name: avg_adjusted_price
+        description: "Verificações de tipo"
+        tests:
+          - dbt_expectations.expect_column_values_to_be_of_type:
+              column_type: double precision
+          - dbt_expectations.expect_column_values_to_be_between:
+              min_value: 0

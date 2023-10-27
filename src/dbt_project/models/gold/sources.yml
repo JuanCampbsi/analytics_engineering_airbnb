@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  - name: Fonte_AIRBNB_Gold
+    description: "Fonte de dados AIRBNB"
+    database: Analytics_Engineering
+    schema: public
+    tables:
+      - name: Calendar_Silver
+        description: "Dados da camada silver Calendar_Silver"
+      - name: Listing_Silver
+        description: "Dados da camada silver Listing_Silver"
+      - name: Reviews_Silver
+        description: "Dados da camada silver Reviews_Silver"

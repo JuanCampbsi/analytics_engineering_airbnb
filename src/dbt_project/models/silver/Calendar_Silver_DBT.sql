@@ -1,5 +1,5 @@
 with source_airbnb as (
-    select * from {{ source('Fonte_AIRBNB', 'Calendar_Silver') }}
+    select * from {{ source('Fonte_AIRBNB_Gold', 'Calendar_Silver') }}
 ),
 
 final as (
