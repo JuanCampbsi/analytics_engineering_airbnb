@@ -6,7 +6,11 @@ Rafael Gomes,
 Marcelo Dias,
 Jonatha Leôncio.
 
-O conjunto de dados "Inside Airbnb", disponível no website "http://insideairbnb.com/", é uma valiosa fonte de informações sobre listagens de hospedagem, avaliações de hóspedes e disponibilidade de calendário em várias cidades ao redor do mundo, incluindo o Rio de Janeiro. Antes de prosseguirmos com a engenharia de dados, é importante entender os principais componentes deste conjunto de dados:
+Este projeto faz uso de ferramentas avançadas como dbt, Great Expectations, Python e Pandas para explorar, transformar e validar o conjunto de dados "Inside Airbnb". O dataset, extraído de "http://insideairbnb.com/", fornece informações ricas sobre listagens de hospedagens, avaliações de hóspedes e disponibilidades de calendário em diversas cidades globais, incluindo o Rio de Janeiro.
+
+O objetivo central deste projeto é transformar e modelar esses dados para análises mais profundas, garantindo sua qualidade e integridade. Com a ajuda do dbt, realizamos transformações e modelagens de dados, tornando-os prontos para análises e relatórios. Pandas e Python são utilizados para manipulação e limpeza preliminares.
+
+Para assegurar a qualidade dos dados, integramos o Great Expectations, que permite criar e executar testes de qualidade de dados. Este conjunto de ferramentas garante que as informações são consistentes, confiáveis e prontas para insights valiosos sobre o mercado de hospedagem nas cidades em destaque.
 
 
 ### Postgres 
