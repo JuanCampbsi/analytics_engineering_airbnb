@@ -1,10 +1,5 @@
 
 ### Engenharia de Dados e Garantia de Qualidade no Conjunto de Dados do Airbnb no Rio de Janeiro
-Integrantes:
-Juan Campos,
-Rafael Gomes,
-Marcelo Dias,
-Jonatha Leôncio.
 
 Este projeto faz uso de ferramentas avançadas como dbt, Great Expectations, Python e Pandas para explorar, transformar e validar o conjunto de dados "Inside Airbnb". O dataset, extraído de "http://insideairbnb.com/", fornece informações ricas sobre listagens de hospedagens, avaliações de hóspedes e disponibilidades de calendário em diversas cidades globais, incluindo o Rio de Janeiro.
 
